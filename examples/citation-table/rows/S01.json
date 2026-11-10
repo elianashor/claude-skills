@@ -1,0 +1,20 @@
+{
+  "ID": "S01",
+  "section": "III.A",
+  "hyperlink": "https://doi.org/10.0000/example.1",
+  "Citation": "Alpha, A. & Beta, B. (2020). Entry and prices. Journal of Examples, 12(3), 1–30.",
+  "What this source is": "A peer-reviewed panel study of regional supply markets.",
+  "Claim it supports": "Entry by a second supplier lowered prices.",
+  "How we would use it": "Section III.A, second paragraph, to support the entry effect with its scope limits.",
+  "Findings": "Prices fell 9.1% within two years of entry (Table 2).",
+  "Proposed excerpt (verbatim)": "“Prices fell by 9.1 percent within two years of entry.” (p. 14)",
+  "Limitations / conflicts / later rebuttals": "Funded by an industry association (disclosed at p. 2). The authors concede the sample excludes small plans, and a later comment questions the price index used.",
+  "Data": "Regional panel, 2010–2018, 212 markets.",
+  "Methods / test": "Difference-in-differences.",
+  "Relevance": 5,
+  "Credibility": "Peer-reviewed field journal",
+  "In draft": "Cited in draft",
+  "detail_abstract": "A written summary of the study.",
+  "detail_relevance_rationale": "Directly on point.",
+  "detail_verification_notes": "Quote checked against the publisher PDF."
+}

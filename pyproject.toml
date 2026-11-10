@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pincite"
+dynamic = ["version"]
+description = "Evidence-grade citation tooling: footnote extraction, schema-driven citation tables, pin-cite verification with negative controls, and a confidentiality guard."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "Eliana Shor" }]
+keywords = ["citations", "litigation", "cite-check", "expert-report", "pin-cite", "claude", "skills"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Legal Industry",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Text Processing :: General",
+  "Topic :: Office/Business",
+]
+dependencies = ["openpyxl>=3.1", "pdfplumber>=0.10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-cov>=5", "reportlab>=4", "ruff>=0.6", "pyyaml>=6", "build>=1.2"]
+
+[project.scripts]
+pincite = "pincite.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/elianashor/claude-skills"
+Issues = "https://github.com/elianashor/claude-skills/issues"
+
+[tool.hatch.version]
+path = "src/pincite/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pincite"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/pincite", "tests", "README.md", "LICENSE", "pyproject.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["src", "tests", "tools"]
+# vendored copies of src/pincite, kept identical by tools/sync_scripts.py
+extend-exclude = ["plugins/*/skills/*/scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["E501", "RUF001", "RUF002", "RUF003", "SIM102", "SIM103", "SIM108", "B904"]
+
+[tool.coverage.run]
+source = ["pincite"]
+branch = true

@@ -1,0 +1,26 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+  - repo: local
+    hooks:
+      - id: sync-scripts
+        name: vendored scripts match src/
+        entry: python tools/sync_scripts.py --check
+        language: system
+        pass_filenames: false
+        files: ^(src/pincite/|plugins/.*/scripts/)
+      - id: pincite-guard
+        name: confidentiality guard
+        entry: pincite guard
+        language: system
+        types: [text]
+      - id: pincite-lint
+        name: skill lint
+        entry: pincite lint
+        language: system
+        pass_filenames: false
+        always_run: true

@@ -1,0 +1,12 @@
+{
+  "src/pincite/footnotes.py": ["plugins/citation-table/skills/citation-table/scripts/extract_footnotes.py"],
+  "src/pincite/workbook.py": ["plugins/citation-table/skills/citation-table/scripts/build_workbook.py"],
+  "src/pincite/sweep.py": ["plugins/citation-table/skills/citation-table/scripts/sweep_workbook.py"],
+  "src/pincite/qc.py": ["plugins/citation-table/skills/citation-table/scripts/qc.py"],
+  "src/pincite/pincheck.py": [
+    "plugins/cheat-sheets/skills/cheat-sheet/scripts/pincheck.py",
+    "plugins/cheat-sheets/skills/teaching-cheat-sheet/scripts/pincheck.py",
+    "plugins/cheat-sheets/skills/prep-sheet/scripts/pincheck.py",
+    "plugins/cheat-sheets/skills/expert-report-section-cheat-sheet/scripts/pincheck.py"
+  ]
+}

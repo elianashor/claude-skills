@@ -1,0 +1,10 @@
+{
+  "name": "citation-table",
+  "version": "1.0.0",
+  "description": "Build or audit a litigation-grade citation table from a manuscript, expert report, or opposing expert's report. Ships a schema-driven workbook builder, a whole-workbook integrity sweep, semantic QC and a font-aware footnote extractor.",
+  "author": { "name": "Eliana Shor", "url": "https://github.com/elianashor" },
+  "homepage": "https://github.com/elianashor/claude-skills",
+  "repository": "https://github.com/elianashor/claude-skills",
+  "license": "MIT",
+  "keywords": ["litigation", "citations", "cite-check", "expert-report", "research", "xlsx"]
+}

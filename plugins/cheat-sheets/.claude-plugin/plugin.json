@@ -1,0 +1,10 @@
+{
+  "name": "cheat-sheets",
+  "version": "1.0.0",
+  "description": "Teaching sheets that let a reader perform from memory under pressure: testimony prep, answering an opposing document, multi-document sets and study manuals. Every pin-cited fact is mechanically verified against the source.",
+  "author": { "name": "Eliana Shor", "url": "https://github.com/elianashor" },
+  "homepage": "https://github.com/elianashor/claude-skills",
+  "repository": "https://github.com/elianashor/claude-skills",
+  "license": "MIT",
+  "keywords": ["cheat-sheet", "testimony", "deposition-prep", "study-guide", "pin-cites", "pdf"]
+}

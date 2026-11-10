@@ -1,0 +1,18 @@
+# Use the confidentiality guard in any repository:
+#   - repo: https://github.com/elianashor/claude-skills
+#     rev: v1.0.0
+#     hooks: [{ id: pincite-guard }]
+- id: pincite-guard
+  name: pincite confidentiality guard
+  description: Block commits that leak case material (denylist terms, case numbers, Bates ranges, legends).
+  entry: pincite guard
+  language: python
+  pass_filenames: true
+  types: [text]
+- id: pincite-lint
+  name: pincite skill lint
+  description: Validate SKILL.md frontmatter, file references, plugin manifests and marketplace.
+  entry: pincite lint
+  language: python
+  pass_filenames: false
+  always_run: true

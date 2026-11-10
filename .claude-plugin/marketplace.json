@@ -1,0 +1,20 @@
+{
+  "name": "pincite",
+  "description": "Evidence-grade research skills: litigation citation tables and pin-cited teaching sheets, each backed by tested verification tooling.",
+  "owner": {
+    "name": "Eliana Shor",
+    "url": "https://github.com/elianashor"
+  },
+  "plugins": [
+    {
+      "name": "citation-table",
+      "source": "./plugins/citation-table",
+      "description": "Build or audit a litigation-grade citation table: every source read in full, every quote character-verified, every number traced, risks on the row face."
+    },
+    {
+      "name": "cheat-sheets",
+      "source": "./plugins/cheat-sheets",
+      "description": "Pin-cited teaching sheets for testimony, argument and exam prep, with mechanical fact verification and a negative control."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "mode": "supporting",
+  "title": "Supporting Authority — Synthetic Report",
+  "draft_date": "2026-01-15",
+  "sections": [
+    {
+      "key": "III.A",
+      "heading": "Market Structure"
+    },
+    {
+      "key": "III.B",
+      "heading": "Pass-Through"
+    }
+  ],
+  "rows": "rows",
+  "method": {
+    "READING AND VERIFICATION STANDARD": "Every source was read in full.",
+    "COVERAGE AND ORGANIZATION": "Rows are grouped by section.",
+    "NOTES ON VERIFICATION LABELS": "None open.",
+    "SOURCE-SPECIFIC NOTES": "None."
+  },
+  "out": "Supporting_Authority.xlsx",
+  "note": "Every source in this table was opened and read in full. Rows are grouped by the report's actual table of contents. The excerpt column is verbatim. Relevance measures fit to this case, not venue prestige."
+}

@@ -1,0 +1,20 @@
+{
+  "ID": "S02",
+  "section": "III.A",
+  "hyperlink": "https://www.example.gov/report.pdf",
+  "Citation": "Agency (2019). Staff report on supply markets. Government Printing Office.",
+  "What this source is": "A government staff report.",
+  "Claim it supports": "Market structure context.",
+  "How we would use it": "Background for Section III.A.",
+  "Findings": "Describes 14 regional markets (p. 3).",
+  "Proposed excerpt (verbatim)": "“The markets studied vary widely in concentration.” (p. 3)",
+  "Limitations / conflicts / later rebuttals": "Funded by an industry association (disclosed at p. 5). The authors concede the sample excludes small plans, and a later comment questions the price index used.",
+  "Data": "Agency survey.",
+  "Methods / test": "Descriptive; no statistical analysis.",
+  "Relevance": 3,
+  "Credibility": "Government / agency source",
+  "In draft (2026-01-15)": "Not yet cited",
+  "detail_abstract": "This source carries no published abstract; the following is written from the reading.",
+  "detail_relevance_rationale": "Background only.",
+  "detail_verification_notes": "Read in full."
+}

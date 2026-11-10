@@ -1,0 +1,20 @@
+{
+  "ID": "S03",
+  "section": "III.B",
+  "hyperlink": "https://doi.org/10.0000/example.3",
+  "Citation": "Gamma, C. (2022). Pass-through in practice. NBER Working Paper 30000.",
+  "What this source is": "A working paper estimating pass-through.",
+  "Claim it supports": "Pass-through is substantial.",
+  "How we would use it": "Section III.B with the working-paper caveat.",
+  "Findings": "Pass-through averaged 80% (Table 4).",
+  "Proposed excerpt (verbatim)": "“Average pass-through is 80 percent.” (p. 22)",
+  "Limitations / conflicts / later rebuttals": "Funded by an industry association (disclosed at p. 9). The authors concede the sample excludes small plans, and a later comment questions the price index used.",
+  "Data": "Claims data, 2016–2020.",
+  "Methods / test": "Instrumental variables.",
+  "Relevance": 4,
+  "Credibility": "Working paper (NBER)",
+  "In draft": "Cited in draft",
+  "detail_abstract": "Abstract text.",
+  "detail_relevance_rationale": "Case-central.",
+  "detail_verification_notes": "Checked against the NBER PDF."
+}
